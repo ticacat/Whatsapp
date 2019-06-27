@@ -1,0 +1,57 @@
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+label{
+	font-family: 'Roboto', sans-serif;
+}
+#inputs{
+width: 500px;
+margin: 0 auto;
+padding: 20px;
+}
+.Mensagem{
+	margin-top: 40px;
+	font-size: 22px;
+}
+
+.numero{
+	font-size: 22px;
+	margin-bottom:15px;
+	padding-bottom: 3px;
+	height: 40px;
+}
+.numero.input{
+	padding-top: 3px;
+}
+/* .botao{
+	color: white;
+	background-color: green;
+	width: 100px;
+	height: 40px;
+	font-size: 15px;
+	border-radius: 5px;
+	margin: 0 auto;
+} */
+.btn-primary{
+	position: relative;
+	right: -900px;
+}
+.Gerar{
+	width: 100px;
+	margin: 0 auto;
+	position: relative; right: 82px;
+}
+.Resultado{
+	font-size: 24px;
+	margin: 0 auto;
+	width: 40%;
+}
+
+#forma{
+	margin: 15px auto;
+	width: 40%;
+}
+.toast{
+delay:1000111;
+}
