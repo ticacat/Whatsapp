@@ -53,5 +53,17 @@ padding: 20px;
 	width: 40%;
 }
 .toast{
-delay:1000111;
+	margin: 0 auto;
+}
+#botaoacessar{
+	position: relative;
+	top:-38px;
+	right: -650px;
+}
+a:hover{
+	text-decoration: none;
+	color:white
+}
+a{
+	color:white;
 }
