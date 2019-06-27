@@ -52,8 +52,6 @@
 			var numero = document.getElementById("nmr").value;
 			var mensagem = encodeURI(document.getElementById("msg").value);
 			var number = numero.replace(/\D/g, '');
-			number=number.replace(/^(d{2})(d)/g,"($1) $2"); //Coloca parênteses em volta dos dois primeiros dígitos
-    		number=number.replace(/(d)(d{4})$/,"$1-$2");    //Coloca hífen entre o quarto e o quinto dígitos
 			var x = number.substring(0,2)
 			var link = "https://wa.me/"+ number+"?text=" + mensagem
 			console.log(x)
